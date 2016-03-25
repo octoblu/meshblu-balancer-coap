@@ -5,4 +5,4 @@ if [ -z "$SERVERS" ]; then
   exit 1
 fi
 
-pen -f -u root -C 9000 -X -r 5683 $SERVERS
+pen -f -u root -C 9000 -X -r -U 5683 $SERVERS
